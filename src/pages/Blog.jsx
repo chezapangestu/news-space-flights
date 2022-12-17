@@ -22,15 +22,15 @@ function Blog(){
 
     return (
         <section className="section">
-            <h1 className="section-title">News page</h1>
+            <h1 className="section-title">"News page"</h1>
 
-            {loading && <i>Loading articles ...</i>}
+            {loading && <i>Loading news ...</i>}
             {!loading && (
                 <div className="articles">
                     {articles.map(function(article){
                         return (
                             <article key={article.id} className="article">
-                                <h2 className="article-title"><Link to={`/blog/${article.id}`}>{article.title}</Link></h2>
+                                <h2 className="list-article"><Link to={`/blog/${article.id}`}>{article.title}</Link></h2>
                                 <time className="article-time">{new Date (article.publishedAt).toLocaleDateString()}</time>
                             </article>
                         )

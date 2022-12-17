@@ -49,7 +49,7 @@ header nav h1 {
 
 header nav a{
   text-decoration: none;
-  padding: 6px;
+  padding: 8px 6px;
   border-radius: 4px;
 }
 
@@ -107,6 +107,10 @@ main{
   margin-bottom: 20px;
 }
 
+.list-article{
+  font-weight: 300;
+}
+
 .theImage{
   text-align: center;
 }
@@ -119,6 +123,10 @@ main{
 
 .article-time{
   color: #b4b4b4;
+}
+
+.section-title{
+  margin-bottom: 50px;
 }
 
 /* landing page */
