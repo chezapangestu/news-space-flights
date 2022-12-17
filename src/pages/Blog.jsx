@@ -22,8 +22,7 @@ function Blog(){
 
     return (
         <section className="section">
-            <h1 className="section-title">Blog page</h1>
-            <p className="section-description">The articles</p>
+            <h1 className="section-title">News page</h1>
 
             {loading && <i>Loading articles ...</i>}
             {!loading && (
